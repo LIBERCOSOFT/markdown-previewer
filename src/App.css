@@ -1,0 +1,43 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  pointer-events: none;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: navy;
+}
+
+.center{
+  text-align: center;
+}
+
+.position{
+  margin-top: 2px;
+}
+
+textarea{
+  height: 300px;
+  width: 500px;
+}
+
+#editor{
+  margin: 2px 250px 0px 230px;
+}
+
+#preview{
+  border: 2px solid black;
+  margin: 2px 250px 0px 230px;
+  padding-left: 2px;
+  color: yellow;
+}
